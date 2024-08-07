@@ -1,0 +1,68 @@
+body{
+    font-family: "Questrial", sans-serif;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: #313131;
+}
+
+#advanceToolTabs{
+    padding: 6px 6px;
+    font-size: 16px;
+    height: auto;
+}
+
+button{
+    width: 100%;
+    margin-top: 5px;
+    text-align: left;
+    background-color: #2d2d2c;
+    font-size: 16px;
+    padding: 10px 0px 10px 20px;
+    font-weight: bold;
+    color: #fef5ec;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset -10px -10px 30px rgba(0, 0, 0, 0.4);
+}
+
+p{
+    font-size: 14px;
+    color: #fef5ec;
+    margin-left: 20px;
+}
+
+input{
+    margin-left: 20px;
+    background-color: transparent;
+    border: .5px solid black;
+    padding: 5px 20px 5px;
+}
+
+.content{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+.dropMenu .content{
+    position: relative;
+    display: none;
+    
+}
+
+.dropMenu:hover .content{
+    display: contents;
+}
+
+#w-h{
+    width: 88%;
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#w-h input{
+    width: 50px;
+}

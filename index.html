@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WPgraphicator Frontend Editor Addon Preview - CodeCanyon</title>
+    <link rel="stylesheet" href="./Styling/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="companyNameNav">
+        <a href="">
+            <div class="logo"></div>
+        </a>
+        <button class="button">Buy now</button>
+    </nav>
+
+    <div id="preloader">
+        <div class="loader">
+            <h4>Loading</h4>
+            <p>This might Take a while</p>
+            <span style="background:white;"></span>
+            <span style="background:white;"></span>
+            <span style="background:white;"></span>
+            <span style="background:white;"></span>
+        </div>
+    </div>
+    
+    <div id="play">
+        00:00:00
+        <div></div>
+    </div>
+
+    <div id="settings"></div>
+
+    <nav id="fileSystem">
+        
+        <div id="fileSystemList" class="dropDownMenu">
+
+            <div id="arrow"></div></li>
+
+            <div id="files">
+                <button value="files">Files</button>
+                <div id="fileItems" class="content">
+                    <a href="">New</a>
+                    <a href="">Export as JSON</a>
+                    <a href="">Export SVG</a>
+                    <a href="">Import SVG</a>
+                </div>
+            </div>
+
+            <div id="edit">
+                <button value="edit">Edit</button>
+                <div  class="content">
+                    <a href="">Undo</a>
+                    <a href="">Delete Selected Shape</a>
+                    <a href="">Copy Selected Shape</a>
+                    <a href="">Paste Shape</a>
+                    <a href="">Group Selected Shapes</a>
+                    <a href="">Clear Canvas</a>
+                </div>
+            </div>
+
+            <div id="animation">
+                <button value="animation">Animation</button>
+                <div  class="content">
+                    <a href="">Delete Selected Keyframe</a>
+                    <a href="">Copy Selected Keyframe</a>
+                    <a href="">Paste Keyframe</a>
+                    <a href="">Default Easing</a>
+                    <a href="">Clear Animation</a>
+                </div>
+            </div>
+
+            <div id="view">
+                <button value="view">View</button>
+                <div  class="content">
+                    <a href="">Grid Size</a>
+                    <a href="">Snap to Grid</a>
+                    <a href="">Fit Canvas</a>
+                </div>
+            </div>
+
+            <div id="help">
+                <button value="help">Help</button>
+                <div class="content">
+                    <a href="">Keyboard Shortcuts</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    
+    <!-- edit area -->
+    <div id="editArea">
+        <div id="tools">
+            <div id="arrowPointer" class="toolIcon"></div>
+            <div id="editPencil" class="toolIcon"></div>
+            <div id="recangle" class="toolIcon"></div>
+            <div id="circle" class="toolIcon"></div>
+            <div id="textIcon" class="toolIcon"></div>
+            <div id="pen" class="toolIcon"></div>
+            <div id="ancorPoints" class="toolIcon"></div>
+            <div id="curveAncorPoints" class="toolIcon"></div>
+            <div id="star" class="toolIcon"></div>
+            <div id="drop" class="toolIcon"></div>
+            <div id="paint" class="toolIcon"></div>
+            <div id="line" class="toolIcon"></div>
+            <div id="zoomPlus" class="toolIcon"></div>
+            <div id="zoomMinus" class="toolIcon"></div>
+        </div>
+
+        <!-- Image edit area -->
+
+        <div id="editableRegion">
+        </div>
+
+        <!-- advance tools -->
+        <div id="advanceTools">
+            <iframe src="/Pages/layerPanel.html" frameborder="0"></iframe>
+        </div>
+
+    </div>
+    <footer id="footerContainer">
+        <div id="footerCompany" class="footerList">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Our Services</li>
+                <li>Contact Us</li>
+            </ul>
+            <ul>
+                <li>Get Help</li>
+                <li>Our Products</li>
+                <li>Pricing</li>
+                <li>Bulk orders</li>
+            </ul>
+            <ul>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Linkedin</li>
+                <li>Mail</li>
+            </ul>
+            <div id="footerLogo">
+
+            </div>
+        </div>
+    </footer>
+    <script src="./Javascript/script.js"></script>
+</body>
+</html>
